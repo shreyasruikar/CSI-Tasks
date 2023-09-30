@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//Shreyas Ruikar - Task 2 (Creating a smart contract)
+//This smart contract serves as a decentralized storage system for managing individual user data.
+//Including their favorite numbers, personal information (name, age, and gender).
+
+
 contract SimpleStorage {
     address public owner;
     uint256 public favoriteNumber;
